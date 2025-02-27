@@ -1,0 +1,115 @@
+/* General Styles */
+/* import homepage from  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e63946;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .sign-in {
+    padding: 8px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }  
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Box */
+  .search-box {
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  .toggle-btn {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: lightgray;
+  }
+  
+  .toggle-btn.active {
+    background: black;
+    color: white;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .filters select,
+  .filters input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    padding: 8px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 200px;
+  }
+  
+  .mostwanted{
+    text-decoration: none;
+    color: #222;
+  }
